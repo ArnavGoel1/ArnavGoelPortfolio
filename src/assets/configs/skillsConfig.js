@@ -1,23 +1,28 @@
 import {
     SiPython,
-    SiPostgresql,
-    SiMicrosoftsqlserver,
-    SiDocker,
-    SiMicrosoftazure,
-    SiRedis,
-    SiReact,
-    SiJavascript,
-    SiCss3,
-    SiHtml5,
-    SiWindowsterminal,
-    SiSnowflake,
-    SiApacheairflow,
-    SiApachekafka,
+    SiR,
+    SiTableau,
+    SiCplusplus,
+    SiMicrosoftexcel,
+    SiMicrosoftword,
+    SiMicrosoftpowerpoint,
+    SiMicrosoftvisio,
+    SiGooglebigquery,
+    SiGooglecloud,
     SiPowerbi
 } from "react-icons/si";
-import {GrMysql} from "react-icons/gr";
-import {FaGitAlt} from "react-icons/fa";
-
+import {
+    GrMysql,
+    GrHadoop
+} from "react-icons/gr";
+import {
+    FaGitAlt,
+    FaBrain
+} from "react-icons/fa";
+import { MdChat } from "react-icons/md";
+import { AiOutlineBarChart } from "react-icons/ai";
+import { GiRadarSweep } from "react-icons/gi";
+import { BiSearchAlt } from "react-icons/bi";
 import React from "react";
 
 const skillsConfig = {
@@ -31,102 +36,112 @@ const skillsConfig = {
         {
             id: "skills-1",
             className: "skill-icon",
-            icon: <SiPostgresql size={50}/>,
-            text: "Postgres"
+            icon: <SiR size={50}/>,
+            text: "R"
         },
         {
             id: "skills-2",
-            className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
-        },
-        {
-            id: "skills-3",
-            className: "skill-icon",
-            icon: <SiDocker size={50}/>,
-            text: "Docker"
-        },
-        {
-            id: "skills-4",
-            className: "skill-icon",
-            icon: <SiMicrosoftazure size={50}/>,
-            text: "Azure"
-        },
-        {
-            id: "skills-5",
-            className: "skill-icon",
-            icon: <FaGitAlt size={50}/>,
-            text: "Git"
-        }
-    ],
-    complementarySkills: [
-        {
-            id: "skills-5",
             className: "skill-icon",
             icon: <GrMysql size={50}/>,
             text: "MySQL"
         },
         {
+            id: "skills-3",
+            className: "skill-icon",
+            icon: <SiPowerbi size={50}/>,
+            text: "Power BI"
+        },
+        {
+            id: "skills-4",
+            className: "skill-icon",
+            icon: <SiTableau size={50}/>,
+            text: "Tableau"
+        },
+        {
+            id: "skills-5",
+            className: "skill-icon",
+            icon: <SiMicrosoftexcel size={50}/>,
+            text: "Excel"
+        },
+        {
             id: "skills-6",
             className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
-        },
+            icon: <SiCplusplus size={50}/>,
+            text: "C++"
+        }
+    ],
+    complementarySkills: [
         {
             id: "skills-7",
             className: "skill-icon",
-            icon: <SiWindowsterminal size={50}/>,
-            text: "Bash"
+            icon: <FaGitAlt size={50}/>,
+            text: "Git"
         },
         {
             id: "skills-8",
             className: "skill-icon",
-            icon: <SiSnowflake size={50}/>,
-            text: "Snowflake"
+            icon: <FaBrain size={50}/>,
+            text: " Deep Learning"
         },
         {
             id: "skills-9",
             className: "skill-icon",
-            icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
+            icon: <MdChat size={50}/>,
+            text: "NLP"
         },
         {
             id: "skills-10",
             className: "skill-icon",
-            icon: <SiJavascript size={50}/>,
-            text: "JS"
+            icon: <AiOutlineBarChart size={50}/>,
+            text: "Business Analytics"
         },
         {
             id: "skills-11",
             className: "skill-icon",
-            icon: <SiCss3 size={50}/>,
-            text: "CSS 3"
+            icon: <BiSearchAlt size={50}/>,
+            text: "Data Exploration"
         },
         {
             id: "skills-12",
             className: "skill-icon",
-            icon: <SiHtml5 size={50}/>,
-            text: "HTML 5"
+            icon: <GiRadarSweep size={50}/>,
+            text: "Visualization"
         },
         {
             id: "skills-13",
             className: "skill-icon",
-            icon: <SiReact size={50}/>,
-            text: "React"
-        }
-        ,
+            icon: <SiMicrosoftword size={50}/>,
+            text: "Word"
+        },
         {
             id: "skills-14",
             className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
-        }
-        ,
+            icon: <SiMicrosoftpowerpoint size={50}/>,
+            text: "Power Point"
+        },
         {
             id: "skills-15",
             className: "skill-icon",
-            icon: <SiPowerbi size={50}/>,
-            text: "Power BI"
+            icon: <SiMicrosoftvisio size={50}/>,
+            text: "Visio"
+        },
+        {
+            id: "skills-16",
+            className: "skill-icon",
+            icon: <GrHadoop size={50}/>,
+            text: "MongoDB"
+        },
+        {
+            id: "skills-17",
+            className: "skill-icon",
+            icon: <SiGooglecloud size={50}/>,
+            text: "Google Cloud Platform"
+        },
+        {
+            id: "skills-18",
+            className: "skill-icon",
+            icon: <SiGooglebigquery size={50}/>,
+            text: "BigQuery"
         }
     ]
 }

@@ -4,145 +4,123 @@ import {ImBook} from "react-icons/im";
 
 import sklearnGenetic from "../images/sklearn_genetic_opt.png"
 import graphEmbeddings from "../images/graph_embeddings.png"
-import kafkaMl from "../images/kafkaml.png"
-import portfolio from "../images/portfolio.png"
+import portfolio from "../images/download.jpeg"
+import healt from "../images/download_2.webp"
+import airbnb from "../images/airbnb.png"
 
 import React from 'react'
 
 const projectConfig = [
     {
         id: "project-5",
-        title: "Sklearn Genetic Opt",
+        title: "Custom Deep Learning network",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
+                url: "https://github.com/ArnavGoel1/DeepLearning",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork",
+                url: "https://github.com/ArnavGoel1/DeepLearning/fork",
                 icon: <BiGitRepoForked/>,
             },
             {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
                 name: "docs",
-                url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/",
+                url: "https://github.com/ArnavGoel1/DeepLearning/blob/main/Paper.pdf",
                 icon: <ImBook/>,
             }
         ],
         image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
+        description: "Predictive Analytics of Boston Housing data using deep learning without using any ML libraries.",
         target: "_blank"
     },
     {
         id: "project-4",
-        title: "Graphs Embeddings",
+        title: "SpaceX Rocket Launch Success Prediction",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings",
+                url: "https://github.com/ArnavGoel1/SpaceX",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/fork",
+                url: "https://github.com/ArnavGoel1/SpaceX/fork",
                 icon: <BiGitRepoForked/>,
             },
             {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
                 name: "docs",
-                url: "https://graph-embeddings.readthedocs.io/",
+                url: "https://github.com/ArnavGoel1/SpaceX/blob/main/SpaceX.pdf",
                 icon: <ImBook/>,
             }
         ],
         image: graphEmbeddings,
-        description: "Graph embeddings for downstream tasks.",
+        description: "Implemented machine learning models to predict rocket launch success, achieving 83.3% accuracy.",
         target: "_blank"
     },
     {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "Video Games Sales Analysis",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
+                url: "https://github.com/ArnavGoel1/VideoGamesSalesAnalysis",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork",
+                url: "https://github.com/ArnavGoel1/VideoGamesSalesAnalysis/fork",
                 icon: <BiGitRepoForked/>
             },
             {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription",
-                icon: <AiFillEye/>
+                name: "docs",
+                url: "https://github.com/ArnavGoel1/VideoGamesSalesAnalysis/blob/main/README.md",
+                icon: <ImBook/>,
             }
+            
         ],
-        image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        image: portfolio,
+        description: "Project for Video Games Sales Analysis using python and machine learning.",
         target: "_blank"
     },
     {
         id: "project-2",
-        title: "Pyworkforce",
+        title: "Annthyroid Prediction",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/pyworkforce",
+                url: "https://github.com/ArnavGoel1/AnnthyroidPrediction",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/fork",
+                url: "https://github.com/ArnavGoel1/AnnthyroidPrediction/fork",
                 icon: <BiGitRepoForked/>
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/subscription",
-                icon: <AiFillEye/>
-            },
-            {
-                name: "docs",
-                url: "https://pyworkforce.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
+        image: healt,
+        description: "Project for Annthyroid Prediction using python and machine learning.",
         target: "_blank"
     },
     {
         id: "project-1",
-        title: "Portfolio Web",
+        title: "Airbnb Price Prediction",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/portfolio",
+                url: "https://github.com/ArnavGoel1/AirbnbPricePrediction",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/portfolio/fork",
+                url: "https://github.com/ArnavGoel1/AirbnbPricePrediction/fork",
                 icon: <BiGitRepoForked/>
             },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/portfolio/subscription",
-                icon: <AiFillEye/>
-            }
+            
         ],
-        image: portfolio,
-        description: "Source code of my current portfolio web page as data scientist.",
+        image: airbnb,
+        description: "Project for Airbnb Price Prediction using python and machine learning.",
         target: "_blank"
     }
 ]

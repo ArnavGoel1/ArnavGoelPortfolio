@@ -2,7 +2,6 @@ import React from "react";
 
 import { AiFillCode, AiFillHome, AiOutlineGithub } from "react-icons/ai";
 
-import { BsMedium } from "react-icons/bs";
 
 const menuConfig = {
   sidebarData: [
@@ -22,13 +21,6 @@ const menuConfig = {
     },
     {
       id: "menu-2",
-      title: "Blogs",
-      path: "/blogs",
-      icon: <BsMedium size={35} />,
-      className: "nav-text",
-    },
-    {
-      id: "menu-3",
       title: "Skills",
       path: "/skills",
       icon: <AiFillCode size={35} />,

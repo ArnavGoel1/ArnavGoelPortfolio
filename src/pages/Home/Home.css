@@ -2,6 +2,20 @@
     color: #f5f5f5;
     font-size: 3em;
 }
+.profile-photo {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-right: 15px; 
+}
+
+.greeting h1 {
+    font-weight: bold;
+    margin-left: 15px; 
+}
+.titles-container {
+    text-align: center;
+    margin-top: 20px;
+}
 
 .main-name {
     color: #cbba3b;
@@ -35,3 +49,26 @@
     justify-content: center;
 
 }
+.resume-download-button {
+    background-color: #4e4e50!important; /* Matches dark theme elements */
+    color: #ffffff!important; /* Ensures text visibility */
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions for interactive states */
+    border-radius: 25px; /* Rounded edges for modern feel */
+    padding: 10px 25px; /* Sufficient padding for clickable area */
+    border: 2px solid #6c757d; /* Slightly lighter border for definition */
+    font-size: 1em; /* Ensures text size is proportional to other elements */
+    margin-top: 20px; /* Spacing from elements above */
+}
+
+.resume-download-button:hover,
+.resume-download-button:focus {
+    background-color: #6c757d; /* Lighter shade for hover/focus states */
+    color: #000000; /* Changes text color for contrast */
+    border-color: #ffffff; /* Highlight border on hover/focus */
+    transform: translateY(-2px); /* Lift effect for interactivity */
+    text-decoration: none; /* Avoids any underline text decoration */
+}
+
+

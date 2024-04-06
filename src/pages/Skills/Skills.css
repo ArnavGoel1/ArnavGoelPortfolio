@@ -13,10 +13,11 @@
     background-color: #263238;
     margin: 2.5rem;
     border-radius: 25px;
+    box-shadow: none;
 }
-.skill-icons :hover{
-    transform: translateZ(5px) scale(1.02);
-    cursor: pointer;
+.skill-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .sec-skill-icon {
@@ -29,7 +30,24 @@
     text-align: center;
 }
 
-
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+  
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.skill-item p {
+    margin-top: 8px;
+}
+  
 .main-skills-h1,
 .complementary-skill-h1 {
     width: 100%;
