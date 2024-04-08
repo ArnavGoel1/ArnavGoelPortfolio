@@ -14,7 +14,7 @@ const menuConfig = {
     },
     {
       id: "menu-1",
-      title: "Projects",
+      title: "Projects & Certifications",
       path: "/projects",
       icon: <AiOutlineGithub size={35} />,
       className: "nav-text",

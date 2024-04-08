@@ -7,8 +7,12 @@ import graphEmbeddings from "../images/graph_embeddings.png"
 import portfolio from "../images/download.jpeg"
 import healt from "../images/download_2.webp"
 import airbnb from "../images/airbnb.png"
+import lean from "../images/Six.png"
+import gog from "../images/google.png"
+import ibm from "../images/ibm.png"
 
 import React from 'react'
+
 
 const projectConfig = [
     {
@@ -121,6 +125,48 @@ const projectConfig = [
         ],
         image: airbnb,
         description: "Project for Airbnb Price Prediction using python and machine learning.",
+        target: "_blank"
+    },
+    {
+        id: "project-6",
+        title: "IBM Data Science Certificate",
+        links: [
+            {
+                name: "link",
+                url: "https://drive.google.com/file/d/1Ys5iYNKEwAYmYJWvzQ2MS1K0imc8nBAM/view?usp=sharing",
+                icon: <ImBook/>,
+            }
+        ],
+        image: ibm,
+        description: "IBM Data Science Certificate",
+        target: "_blank"
+    },
+    {
+        id: "project-8",
+        title: "Google Data Analytics Professional Certificate",
+        links: [
+            {
+                name: "link",
+                url: "https://drive.google.com/file/d/1kzdjsNO_x5lTxns7oGscWmQSVnaT5Gsm/view?usp=sharing",
+                icon: <ImBook/>,
+            }
+        ],
+        image: gog,
+        description: "Google Data Analytics Professional Certificate",
+        target: "_blank"
+    },
+    {
+        id: "project-7",
+        title: "Lean Six-Sigma Foundation",
+        links: [
+            {
+                name: "link",
+                url: "https://drive.google.com/file/d/1KoYGgpN5zyKPnDNwVQIe2gQME3bs1CEY/view?usp=sharing",
+                icon: <ImBook/>,
+            }
+        ],
+        image: lean,
+        description: "Lean Six-Sigma Foundation",
         target: "_blank"
     }
 ]
