@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fbae5da7.css",
-    "main.js": "/portfolio/static/js/main.ea74a7cc.js",
+    "main.js": "/portfolio/static/js/main.8de59b4a.js",
     "static/media/airbnb.png": "/portfolio/static/media/airbnb.365575cb4dd38f6a473a.png",
     "static/media/download.jpeg": "/portfolio/static/media/download.457e786a0f81716f9275.jpeg",
+    "static/media/google.png": "/portfolio/static/media/google.05dfc63d55204d772876.png",
+    "static/media/ibm.png": "/portfolio/static/media/ibm.1c3606f1f6f5de89c1ca.png",
     "static/media/graph_embeddings.png": "/portfolio/static/media/graph_embeddings.15b892adf6368a965618.png",
     "static/media/myImage.jpg": "/portfolio/static/media/myImage.113808c672a36c6e2212.jpg",
     "static/media/sklearn_genetic_opt.png": "/portfolio/static/media/sklearn_genetic_opt.bf6f1e0760ab8b243803.png",
+    "static/media/Six.png": "/portfolio/static/media/Six.f42a305fdb90cab831a8.png",
     "static/media/download_2.webp": "/portfolio/static/media/download_2.9089237d83a69f4b65ec.webp",
     "index.html": "/portfolio/index.html",
     "main.fbae5da7.css.map": "/portfolio/static/css/main.fbae5da7.css.map",
-    "main.ea74a7cc.js.map": "/portfolio/static/js/main.ea74a7cc.js.map"
+    "main.8de59b4a.js.map": "/portfolio/static/js/main.8de59b4a.js.map"
   },
   "entrypoints": [
     "static/css/main.fbae5da7.css",
-    "static/js/main.ea74a7cc.js"
+    "static/js/main.8de59b4a.js"
   ]
 }
