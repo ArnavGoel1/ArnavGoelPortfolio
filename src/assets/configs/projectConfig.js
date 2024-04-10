@@ -147,7 +147,7 @@ const projectConfig = [
         links: [
             {
                 name: "link",
-                url: "https://drive.google.com/file/d/1kzdjsNO_x5lTxns7oGscWmQSVnaT5Gsm/view?usp=sharing",
+                url: "https://drive.google.com/file/d/1D_onaIR_Px2dMmOYwtvrieDS8cqvoPD0/view?usp=sharing",
                 icon: <ImBook/>,
             }
         ],

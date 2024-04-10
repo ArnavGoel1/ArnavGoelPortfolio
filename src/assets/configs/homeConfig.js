@@ -26,8 +26,8 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-5",
-            title: "Master of Science in Data Science",
-            company: "Drexel University - CGPA 3.86",
+            title: "Drexel University",
+            company: "Master of Science in Data Science - CGPA 3.86",
             description: [
                 "Specialized in machine learning, big data analytics, and statistical methods.",
                 "Completed courses on Applied ML for Data Science, Applied Cloud Computing, Database Management Systems, Deep Learning, NLP with Deep Learning."
@@ -39,8 +39,8 @@ const homeConfig = {
         },
         {
             id: "work-4",
-            title: "Master of Business Administration in Finance",
-            company: "Thapar Institute of Engineering and Technology - CGPA 3.3",
+            title: "Thapar Institute of Engineering and Technology",
+            company: "Master of Business Administration in Finance - CGPA 3.3",
             description: [
                 "Gained a strong foundation in financial management, business intelligence, and big data management.",
                 "Engaged in coursework including Business Intelligence, Applied Business Research, Big Data Management, Health Informatics For Managers, Advance Excel And VBA For Managers."
@@ -51,8 +51,8 @@ const homeConfig = {
         },
         {
             id: "work-3",
-            title: "Bachelor of Science in Computer Engineering",
-            company: "Thapar Institute of Engineering and Technology - CGPA 3",
+            title: "Thapar Institute of Engineering and Technology",
+            company: "Bachelor of Science in Computer Engineering - CGPA 3",
             description: [
                 "Focused on software engineering principles, artificial intelligence, and cloud computing.",
                 "Relevant coursework included Numerical Analysis, AI, Cloud Computing, Deep Learning."
@@ -63,8 +63,8 @@ const homeConfig = {
         },
         {
             id: "work-2",
-            title: "Software Engineer",
-            company: "Infosys",
+            title: "Infosys",
+            company: "Software Engineer",
             description: [
                 "Guided a team of 5 to enhance application performance, achieving a 20% system efficiency increase.",
                 "Led to project cost savings of ₹1.5 Crore ($180,000 USD) annually.",
@@ -79,8 +79,8 @@ const homeConfig = {
         },
         {
             id: "work-1",
-            title: "Intern Software Engineer",
-            company: "Oops InfoSolutions",
+            title: "Oops InfoSolutions",
+            company: "Intern Software Engineer",
             description: [
                 "Developed 3 Android mobile applications with enhanced UI designs.",
                 "Accelerated development cycles by 15% and improved user engagement by 20%.",
