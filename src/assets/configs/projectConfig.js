@@ -170,7 +170,7 @@ const projectConfig = [
         target: "_blank"
     },
     {
-        id: "project-8",
+        id: "project-9",
         title: "Hackerrank SQL(Advance) Certification",
         links: [
             {
