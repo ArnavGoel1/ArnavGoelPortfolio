@@ -10,7 +10,7 @@ import airbnb from "../images/airbnb.png"
 import lean from "../images/Six.png"
 import gog from "../images/google.png"
 import ibm from "../images/ibm.png"
-
+import hac from "../images/hac.png"
 import React from 'react'
 
 
@@ -167,6 +167,20 @@ const projectConfig = [
         ],
         image: lean,
         description: "Lean Six-Sigma Foundation",
+        target: "_blank"
+    },
+    {
+        id: "project-8",
+        title: "Hackerrank SQL(Advance) Certification",
+        links: [
+            {
+                name: "link",
+                url: "https://www.hackerrank.com/certificates/055b469211f0",
+                icon: <ImBook/>,
+            }
+        ],
+        image: hac,
+        description: "Hackerrank SQL(Advance) Certification",
         target: "_blank"
     }
 ]
