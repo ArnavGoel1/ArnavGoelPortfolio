@@ -25,7 +25,7 @@ const homeConfig = {
     photo: myPhoto, 
     workTimeline: [
         {
-            id: "work-5",
+            id: "work-4",
             title: "Drexel University",
             company: "Master of Science in Data Science - CGPA 3.86",
             description: [
@@ -38,7 +38,7 @@ const homeConfig = {
             tags: ["Machine Learning", "Big Data", "Cloud Computing", "Deep Learning", "NLP", "SQL"]
         },
         {
-            id: "work-4",
+            id: "work-3",
             title: "Thapar Institute of Engineering and Technology",
             company: "Master of Business Administration in Finance - CGPA 3.3",
             description: [
@@ -50,7 +50,7 @@ const homeConfig = {
             tags: ["Advanced Excel", "Business Intelligence", "Financial Management", "Big Data", "Health Informatics"]
         },
         {
-            id: "work-3",
+            id: "work-2",
             title: "Thapar Institute of Engineering and Technology",
             company: "Bachelor of Science in Computer Engineering - CGPA 3",
             description: [
@@ -60,22 +60,6 @@ const homeConfig = {
             date: "August 2016 - June 2020",
             icon: <FaGraduationCap/>,
             tags: ["Software Engineering", "SQL", "AI", "Cloud Computing", "Deep Learning"]
-        },
-        {
-            id: "work-2",
-            title: "Infosys",
-            company: "Software Engineer",
-            description: [
-                "Guided a team of 5 to enhance application performance, achieving a 20% system efficiency increase.",
-                "Led to project cost savings of ₹1.5 Crore ($180,000 USD) annually.",
-                "Implemented robust data validation processes, reducing data errors by 25%.",
-                "Enhanced security protocols and optimized system performance through predictive modeling.",
-                "Increased data processing speed by 40% with Tableau.",
-                "Integrated machine learning for better predictive analytics, boosting client revenue by ₹2.5 Crore($300,000 USD)."
-            ],
-            date: "September 2021 - August 2022",
-            icon: <MdWork/>,
-            tags: ["Python", "SQL", "Tableau", "Machine Learning"]
         },
         {
             id: "work-1",
