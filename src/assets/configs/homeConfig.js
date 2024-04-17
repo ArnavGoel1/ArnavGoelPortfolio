@@ -20,7 +20,7 @@ const homeConfig = {
     resume: {
         icon: <FaFileAlt size={50} />,
         text: "Resume",
-        link: "https://drive.google.com/file/d/1uy1n9jS8ZkqEAsaJE41xOw8mZXNcE5NC/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1egrlRm4tBPGxGkEnrxWGFke61LNOf_kJ/view?usp=sharing"
     },
     photo: myPhoto, 
     workTimeline: [
