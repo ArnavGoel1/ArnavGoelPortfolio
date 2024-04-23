@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ArnavGoelPortfolio/static/css/main.fbae5da7.css",
-    "main.js": "/ArnavGoelPortfolio/static/js/main.0d9d98a3.js",
-    "static/media/hac.png": "/ArnavGoelPortfolio/static/media/hac.8f2081dd7fdb19272a35.png",
-    "static/media/airbnb.png": "/ArnavGoelPortfolio/static/media/airbnb.365575cb4dd38f6a473a.png",
-    "static/media/download.jpeg": "/ArnavGoelPortfolio/static/media/download.457e786a0f81716f9275.jpeg",
-    "static/media/google.png": "/ArnavGoelPortfolio/static/media/google.9211fe1b4d322224bd44.png",
-    "static/media/ibm.png": "/ArnavGoelPortfolio/static/media/ibm.1c3606f1f6f5de89c1ca.png",
-    "static/media/graph_embeddings.png": "/ArnavGoelPortfolio/static/media/graph_embeddings.15b892adf6368a965618.png",
-    "static/media/myImage.jpg": "/ArnavGoelPortfolio/static/media/myImage.113808c672a36c6e2212.jpg",
-    "static/media/sklearn_genetic_opt.png": "/ArnavGoelPortfolio/static/media/sklearn_genetic_opt.bf6f1e0760ab8b243803.png",
-    "static/media/Six.png": "/ArnavGoelPortfolio/static/media/Six.f42a305fdb90cab831a8.png",
-    "static/media/download_2.webp": "/ArnavGoelPortfolio/static/media/download_2.9089237d83a69f4b65ec.webp",
-    "index.html": "/ArnavGoelPortfolio/index.html",
-    "main.fbae5da7.css.map": "/ArnavGoelPortfolio/static/css/main.fbae5da7.css.map",
-    "main.0d9d98a3.js.map": "/ArnavGoelPortfolio/static/js/main.0d9d98a3.js.map"
+    "main.css": "/portfolio/static/css/main.fbae5da7.css",
+    "main.js": "/portfolio/static/js/main.ac8220ce.js",
+    "static/media/hac.png": "/portfolio/static/media/hac.8f2081dd7fdb19272a35.png",
+    "static/media/airbnb.png": "/portfolio/static/media/airbnb.365575cb4dd38f6a473a.png",
+    "static/media/download.jpeg": "/portfolio/static/media/download.457e786a0f81716f9275.jpeg",
+    "static/media/google.png": "/portfolio/static/media/google.9211fe1b4d322224bd44.png",
+    "static/media/ibm.png": "/portfolio/static/media/ibm.1c3606f1f6f5de89c1ca.png",
+    "static/media/graph_embeddings.png": "/portfolio/static/media/graph_embeddings.15b892adf6368a965618.png",
+    "static/media/myImage.jpg": "/portfolio/static/media/myImage.113808c672a36c6e2212.jpg",
+    "static/media/sklearn_genetic_opt.png": "/portfolio/static/media/sklearn_genetic_opt.bf6f1e0760ab8b243803.png",
+    "static/media/Six.png": "/portfolio/static/media/Six.f42a305fdb90cab831a8.png",
+    "static/media/download_2.webp": "/portfolio/static/media/download_2.9089237d83a69f4b65ec.webp",
+    "index.html": "/portfolio/index.html",
+    "main.fbae5da7.css.map": "/portfolio/static/css/main.fbae5da7.css.map",
+    "main.ac8220ce.js.map": "/portfolio/static/js/main.ac8220ce.js.map"
   },
   "entrypoints": [
     "static/css/main.fbae5da7.css",
-    "static/js/main.0d9d98a3.js"
+    "static/js/main.ac8220ce.js"
   ]
 }
