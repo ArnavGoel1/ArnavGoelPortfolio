@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiOutlineCode } from "react-icons/ai";
-import { MdWork } from "react-icons/md";
 import { FaFileAlt,FaGraduationCap } from 'react-icons/fa';
 import myPhoto from '../images/myImage.jpg';
 
@@ -25,7 +24,7 @@ const homeConfig = {
     photo: myPhoto, 
     workTimeline: [
         {
-            id: "work-4",
+            id: "work-5",
             title: "Drexel University",
             company: "Master of Science in Data Science - CGPA 3.86",
             description: [
@@ -38,7 +37,7 @@ const homeConfig = {
             tags: ["Machine Learning", "Big Data", "Cloud Computing", "Deep Learning", "NLP", "SQL"]
         },
         {
-            id: "work-3",
+            id: "work-4",
             title: "Thapar Institute of Engineering and Technology",
             company: "Master of Business Administration in Finance - CGPA 3.3",
             description: [
@@ -50,7 +49,7 @@ const homeConfig = {
             tags: ["Advanced Excel", "Business Intelligence", "Financial Management", "Big Data", "Health Informatics"]
         },
         {
-            id: "work-2",
+            id: "work-3",
             title: "Thapar Institute of Engineering and Technology",
             company: "Bachelor of Science in Computer Engineering - CGPA 3",
             description: [
@@ -62,19 +61,30 @@ const homeConfig = {
             tags: ["Software Engineering", "SQL", "AI", "Cloud Computing", "Deep Learning"]
         },
         {
+            id: "work-2",
+            title: "Oops InfoSolutions",
+            company: "Data Science Engineer",
+            description: [
+                "Built Tableau dashboard to visualize core business KPIs, saving 10 hours per week of manual reporting work.",
+                "Aggregated unstructured data from 20+ sources to build the foundation of a new product; led to $10,000 in new revenue.",
+                "Designed the data pipeline architecture in a team of 5 for a new product that scaled from 0 to 12,000 daily active users."
+            ],
+            date: "September 2021 - August 2022",
+            icon: <AiOutlineCode/>,
+            tags: ["Data Science", "Machine Learning", "Data Analytics", "Data Visualization"]
+        },
+        {
             id: "work-1",
             title: "Oops InfoSolutions",
-            company: "Intern Software Engineer",
+            company: "Intern Data Engineer",
             description: [
-                "Developed 3 Android mobile applications with enhanced UI designs.",
-                "Accelerated development cycles by 15% and improved user engagement by 20%.",
-                "Streamlined code optimization processes, reducing application memory usage by 10%.",
-                "Increased operational speed by 15%, and implemented automated unit tests.",
-                "Reduced bug rates by 30% and enhanced application reliability."
+                "Engineered and optimized ETL processes for three key projects, enhancing data integration and workflow efficiency by 15%.",
+                "Streamlined big data handling and query performance, reducing latency by 10% and improving scalability and throughput of data operations.",
+                "Implemented robust data validation and automated testing frameworks, decreasing data errors by 30% and ensuring data integrity and accuracy for analytical processing."
             ],
             date: "January 2020 - June 2020",
             icon: <AiOutlineCode/>,
-            tags: ["Android", "UI/UX Design", "Code Optimization", "Automated Testing"]
+            tags: ["Data Engineer", "ETL", "SQL", "Database Management"]
         }
     ]
 }
